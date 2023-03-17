@@ -1,6 +1,7 @@
 #cryptorankr
 
-This is my Front End Application called "cryptorankr", made for Galvanize's Software Immersive Course.
+I created a #cryptocurrency tracker web app that I've branded as "cryptorankr"! It uses CoinGecko's Crypto API to retrieve realtime data such as rankings, live prices, trading volume, market cap, and market cap change percentages! It also lists the top 7 trending cryptocurrencies as searched by #coingecko users in last 24 hours.
 
-It is a cryptocurrency tracking app that uses CoinGecko's API to display realtime ranking, price, and market cap values of the top 100 cryptocurrencies in the world. 
+The application is made entirely using HTML, CSS, Vanilla JavaScript, and jQuery.
 
+For the animations, I used GreenSock's animation library with their ScrollTo and ScrollTrigger plugins.
