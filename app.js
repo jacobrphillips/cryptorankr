@@ -64,7 +64,7 @@ $.get("https://api.coingecko.com/api/v3/search/trending", function trending(data
 
 for (let key in data){
     for (let i = 0; i < data[key].length-1; i++){
-        console.log(data[key][i].item);
+        // console.log(data[key][i].item);
         let $rank = data[key][i].item.market_cap_rank;
         let $img = data[key][i].item.small;
         let $name = data[key][i].item.name;
